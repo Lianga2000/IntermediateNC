@@ -40,6 +40,28 @@ We study the implicit bias of gradient based training methods to favor low-depth
      ```
 
 <br />
+
+<hr>
+
+### Example Experimental Results (see more in the paper)
+
+We conducted experiments to study **Intermediate NCC Separability** using different architectures and datasets. The results demonstrate the NCC train accuracy rates across neural networks with varying depths.
+
+![Experimental Results](images/fig.png)
+
+**Figure 1**: *Intermediate NCC separability of CONV-L-400 trained on CIFAR10.*  
+Each curve represents a different layer within the network. Results show how NCC train accuracy evolves through the layers for networks with 3, 5, 8, 12, 16, and 20 layers.
+
+
+### How to Reproduce Results
+
+#### Training Setup
+Use the following training configuration:
+- **Batch size**: 128
+- **Learning rate schedule**: Initial learning rate of 0.1, decayed three times by a factor of 0.1 at epochs 60, 120, and 160
+- **Momentum**: 0.9
+- **Weight decay**: 5e−4
+- **Epochs**: 500
 <hr> 
 <h3> Citation </h3>
 
