@@ -43,7 +43,8 @@ We study the implicit bias of gradient based training methods to favor low-depth
 
 <hr>
 
-### Example Experimental Results (see more in the paper)
+### Example Experimental Results  
+*(For more details, refer to the paper)*  
 
 We conducted experiments to study **Intermediate NCC Separability** using different architectures and datasets. The results demonstrate the NCC train accuracy rates across neural networks with varying depths.
 
