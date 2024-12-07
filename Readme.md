@@ -49,9 +49,7 @@ We conducted experiments to study **Intermediate NCC Separability** using differ
 
 ![Experimental Results](images/fig.png)
 
-**Figure 1**: *Intermediate NCC separability of CONV-L-400 trained on CIFAR10.*  
-Each curve represents a different layer within the network. Results show how NCC train accuracy evolves through the layers for networks with 3, 5, 8, 12, 16, and 20 layers.
-
+Figure 1: Intermediate NCC separability of CONV-L-400 (L hidden layers with a width of 400) trained on CIFAR10. The results show how NCC train accuracy evolves across the layers for networks with 3, 5, 8, 12, 16, and 20 layers.
 
 ### How to Reproduce Results
 
